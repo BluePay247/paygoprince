@@ -23,7 +23,7 @@ export default function PaymentPage() {
   }, [router])
 
   const handleCopyAmount = () => {
-    navigator.clipboard.writeText("5500")
+    navigator.clipboard.writeText("7250")
     setCopiedAmount(true)
     setTimeout(() => setCopiedAmount(false), 2000)
   }
@@ -75,7 +75,7 @@ export default function PaymentPage() {
             <div>
               <p className="text-gray-700 mb-1 text-sm">Amount</p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">NGN 5,500</p>
+                <p className="font-bold">NGN 7,250</p>
                 <button onClick={handleCopyAmount} className="bg-orange-400 text-white px-3 py-1 rounded text-sm">
                   {copiedAmount ? "Copied" : "Copy"}
                 </button>
