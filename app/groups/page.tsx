@@ -23,11 +23,11 @@ export default function GroupsPage() {
   }, [router])
 
   const handleJoinWhatsApp = () => {
-    window.open("https://whatsapp.com/channel/0029VakAHcnEKyZFc7Mc9V06", "_blank")
+    window.open("https://whatsapp.com/channel/0029Vb5rpnuEQIaxA7taFz1r", "_blank")
   }
 
   const handleJoinTelegram = () => {
-    window.open("https://t.me/rexnaijaupdate")
+    window.open("https://t.me/Gopayapp")
   }
 
   if (!userData) {
