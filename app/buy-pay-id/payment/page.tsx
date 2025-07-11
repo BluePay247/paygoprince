@@ -23,13 +23,13 @@ export default function PaymentPage() {
   }, [router])
 
   const handleCopyAmount = () => {
-    navigator.clipboard.writeText("7250")
+    navigator.clipboard.writeText("5500")
     setCopiedAmount(true)
     setTimeout(() => setCopiedAmount(false), 2000)
   }
 
   const handleCopyAccountNumber = () => {
-    navigator.clipboard.writeText("1040056612")
+    navigator.clipboard.writeText("5920913459")
     setCopiedAccount(true)
     setTimeout(() => setCopiedAccount(false), 2000)
   }
@@ -63,7 +63,7 @@ export default function PaymentPage() {
             </div>
           </div>
           <div className="text-right">
-            <div className="text-lg font-bold">NGN 7,250</div>
+            <div className="text-lg font-bold">NGN 5,500</div>
             <div className="text-gray-600 text-sm">{formData.email}</div>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function PaymentPage() {
             <div>
               <p className="text-gray-700 mb-1 text-sm">Amount</p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">NGN 7,250</p>
+                <p className="font-bold">NGN 5,500</p>
                 <button onClick={handleCopyAmount} className="bg-orange-400 text-white px-3 py-1 rounded text-sm">
                   {copiedAmount ? "Copied" : "Copy"}
                 </button>
@@ -87,7 +87,7 @@ export default function PaymentPage() {
                 <span>🔢</span> Account Number
               </p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">1040056612</p>
+                <p className="font-bold">5920913459</p>
                 <button
                   onClick={handleCopyAccountNumber}
                   className="bg-orange-400 text-white px-3 py-1 rounded text-sm"
@@ -101,14 +101,14 @@ export default function PaymentPage() {
               <p className="text-gray-700 mb-1 text-sm flex items-center gap-1">
                 <span>🏦</span> Bank Name
               </p>
-              <p className="font-bold">VDF MFB</p>
+              <p className="font-bold">MONIEPOINT</p>
             </div>
 
             <div>
               <p className="text-gray-700 mb-1 text-sm flex items-center gap-1">
                 <span>🚹</span> Account Name
               </p>
-              <p className="font-bold">PayGo-jude Samuel</p>
+              <p className="font-bold">GABRIEL CHIOKWA OBED,</p>
             </div>
           </div>
 
