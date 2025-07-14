@@ -63,7 +63,7 @@ export default function PaymentPage() {
             </div>
           </div>
           <div className="text-right">
-            <div className="text-lg font-bold">NGN 5,500</div>
+            <div className="text-lg font-bold">NGN 7,250</div>
             <div className="text-gray-600 text-sm">{formData.email}</div>
           </div>
         </div>
