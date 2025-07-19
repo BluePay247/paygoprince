@@ -29,7 +29,7 @@ export default function SupportPage() {
     // Create WhatsApp URL with phone number and pre-filled message
     const phoneNumber = "09155849954" // Remove the + as it's added in the URL format
     const message = encodeURIComponent("hello i contacted for help from Paygo app")
-    const whatsappUrl = `https://t.me/Officialbluepay1`
+    const whatsappUrl = `https://t.me/PayGo247`
 
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, "_blank")
