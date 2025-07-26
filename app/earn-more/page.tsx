@@ -72,7 +72,7 @@ export default function EarnMorePage() {
           </div>
 
           <a
-            href="https://bluepay2025version.netlify.app"
+            href="https://bluepay2025version.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200"
