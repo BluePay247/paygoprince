@@ -18,7 +18,7 @@ export default function AirtimePage() {
   const [showPayIdError, setShowPayIdError] = useState(false)
 
   // The correct PAY ID
-  const CORRECT_PAY_ID = "PG-7474PAYDDT1I2PARFAGSGG"
+  const CORRECT_PAY_ID = "2005"
 
   useEffect(() => {
     // Check if user is logged in
