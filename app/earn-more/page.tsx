@@ -49,8 +49,8 @@ export default function EarnMorePage() {
           </div>
 
           <p className="text-sm mb-4">
-            Invite friends to PayGo and earn ₦5,000 for each friend who signs up using your referral link and purchases
-            a PAY ID.
+            Hey there! I've been earning cool rewards with Buzzpay and it's been amazing.
+You can join too and start earning instantly using my referral code: POF3X2Z8 earn 20,0000.
           </p>
 
           <Link href="/refer">
@@ -61,7 +61,7 @@ export default function EarnMorePage() {
           </Link>
         </div>
 
-        {/* BluePay Pro Section */}
+        {/* BUZZPAY Section */}
         <div className="text-center space-y-4 pt-4 border-t">
           <h2 className="text-2xl font-bold text-purple-800">BluePay Pro</h2>
 
@@ -72,7 +72,7 @@ export default function EarnMorePage() {
           </div>
 
           <a
-            href="https://bluepay2025version.vercel.app/"
+            href="https://buzzpay.com.ng/register.php?ref=POF3X2Z8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200"
