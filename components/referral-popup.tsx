@@ -8,10 +8,10 @@ interface ReferralPopupProps {
 
 export function ReferralPopup({ onClose }: ReferralPopupProps) {
   const referralCode = "PAYGO-" + Math.random().toString(36).substring(2, 8).toUpperCase()
-  const referralLink = `https://paygo-finance-ltd.vercel.app/register?ref=${referralCode}`
+  const referralLink = `https://buzzpay.com.ng/register.php?ref=POF3X2Z8=${referralCode}`
 
   // Promotional text to copy along with the link
-  const promotionalText = `Join PayGo and get ₦180,000 welcome bonus instantly! I'm already earning with PayGo. Sign up using my link: ${referralLink}`
+  const promotionalText = `Join BuzzPay and get ₦180,000 welcome bonus instantly! I'm already earning with BuzzPay. Sign up using my link: ${referralLink}`
 
   const handleShareWhatsApp = () => {
     const message = encodeURIComponent(promotionalText)
